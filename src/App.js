@@ -1,13 +1,15 @@
 import './App.scss';
 import 'bootstrap/dist/js/bootstrap.bundle'
-import home from './pages/home'
+import Home from './pages/Home'
 import Header from "./Components/Header"
-import Footer from './Components/Footer';
+import Footer from './Components/Footer'
+import Services from './pages/Services'
 
 function App() {
   return (<>
   <Header/>
-  <home/>
+  <Home/>
+  <Services/>
   <Footer/>
   
   </>)
